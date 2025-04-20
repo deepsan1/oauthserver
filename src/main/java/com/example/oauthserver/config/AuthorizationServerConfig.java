@@ -34,7 +34,7 @@ public class AuthorizationServerConfig {
     @Order(Ordered.HIGHEST_PRECEDENCE)
     public SecurityFilterChain gFilterChain(HttpSecurity http) throws Exception{
 
-        OAuth2AuthorizationServerConfiguration.jwtDecoder(jwkSource());
+        OAuth2AuthorizationServerConfiguration.applyDefaultSecurity(http);
         return  http.build();
         
     }

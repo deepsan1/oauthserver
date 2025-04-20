@@ -219,3 +219,16 @@ Caused by: java.lang.IllegalArgumentException: A filter chain that matches any r
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:171)
 	... 38 common frames omitted
+2025-04-20 09:51:37.234 [main] INFO  c.e.o.OauthserverApplication - Starting OauthserverApplication using Java 17.0.14 with PID 24000 (C:\Users\ganji\OneDrive\Desktop\projects\oauthserver\target\classes started by ganji in C:\Users\ganji\OneDrive\Desktop\projects\oauthserver)
+2025-04-20 09:51:37.239 [main] INFO  c.e.o.OauthserverApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-20 09:51:38.277 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9000 (http)
+2025-04-20 09:51:38.287 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-20 09:51:38.287 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-20 09:51:38.328 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-20 09:51:38.329 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1025 ms
+2025-04-20 09:51:38.390 [main] INFO  c.e.oauthserver.config.LoggingConfig - Logging configuration initialized
+2025-04-20 09:51:38.495 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-04-20 09:51:39.201 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9000 (http) with context path '/'
+2025-04-20 09:51:39.210 [main] INFO  c.e.o.OauthserverApplication - Started OauthserverApplication in 2.387 seconds (process running for 2.69)
+2025-04-20 09:52:18.422 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-20 09:52:18.526 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
