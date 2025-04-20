@@ -66,6 +66,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>spring-boot-image-new</finalName>
 	</build>
 
 </project>
